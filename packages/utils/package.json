@@ -6,7 +6,12 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MechaChen/monorepo-cicd-with-lerna.git"
+  },
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
