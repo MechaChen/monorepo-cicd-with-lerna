@@ -1,15 +1,18 @@
 {
-  "name": "@monorepo/calculator",
+  "name": "@mechachen/calculator",
   "version": "1.0.0",
   "description": "Simple calculator package",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@monorepo/utils": "workspace:*"
+    "@mechachen/utils": "workspace:*"
   }
 }

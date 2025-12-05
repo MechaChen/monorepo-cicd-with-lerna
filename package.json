@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "pnpm -r test",
-    "test:all": "pnpm -r test"
+    "test:all": "pnpm -r test",
+    "publish:packages": "pnpm publish -r --no-git-checks --access public"
   },
   "keywords": [],
   "author": "",

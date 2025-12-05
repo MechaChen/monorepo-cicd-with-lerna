@@ -1,7 +1,7 @@
 /**
  * Calculator functions
  */
-const { validateNumber } = require("@monorepo/utils");
+const { validateNumber } = require("@mechachen/utils");
 
 /**
  * Adds two numbers

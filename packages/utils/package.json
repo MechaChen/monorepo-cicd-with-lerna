@@ -1,10 +1,13 @@
 {
-  "name": "@monorepo/utils",
+  "name": "@mechachen/utils",
   "version": "1.0.0",
   "description": "Utility functions package",
   "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
