@@ -17,7 +17,7 @@ importers:
 
   packages/calculator:
     dependencies:
-      '@monorepo/utils':
+      '@mechachen/utils':
         specifier: workspace:*
         version: link:../utils
 
