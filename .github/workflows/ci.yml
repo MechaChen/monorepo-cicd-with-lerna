@@ -34,8 +34,3 @@ jobs:
 
       - name: Run tests
         run: pnpm test
-
-      - name: Generate coverage report
-        if: matrix.node-version == '20.x'
-        run: pnpm test -- --coverage
-        continue-on-error: true
